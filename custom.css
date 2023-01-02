@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.main {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(back.jpg);
+}
+
+label {
+    font-family: bree serif;
+}
+
+.que-col {
+    padding:20px;
+}
+
+.container {
+    width: 35rem;
+    display: flex;
+    padding: 20px 50px 50px 50px;
+    border: 3px solid black;
+    background: transparent;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.col {
+    text-align: justify;
+    font-size: 18px;
+    border: 2px solid black;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#submit {
+    width: 40%;
+    background-color: #6D67E4;
+    transition: 0.5s;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#clear {
+
+    width: 40%;
+    background-color: #6D67E4;
+    transition: 0.5s;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#clear:hover{
+    background-color: rgb(28, 211, 211);
+    color:black;
+}
+
+#submit:hover {
+    background-color: rgb(28, 211, 211);
+    color:black;
+}
+
+.result {
+    padding: 5px;
+    text-align: center;
+}
+
+.play-again {
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left:22%;
+    background-color: #FF8E9E;
+    transition: all 0.3s;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.play-again:hover{
+    background-color: #00ABB3;
+    color: white;
+}
+
+.box:hover{
+    background-color: #3CCF4E;
+}
